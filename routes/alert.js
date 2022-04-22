@@ -6,7 +6,7 @@ router.get('/', async function(req, res, next) {
 
 
     await Axios.post(
-        `https://hooks.slack.com/services/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`,
+        `https://hooks.slack.com/services/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`,
         {
             blocks: [
                 {
@@ -23,7 +23,7 @@ router.get('/', async function(req, res, next) {
     res.json({
         date: new Date().toISOString(),
     })
-    res.render('index', { title: 'Express' });
+    // res.render('index', { title: 'Express' });
 
 });
 
